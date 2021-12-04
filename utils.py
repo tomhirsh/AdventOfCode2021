@@ -1,9 +1,9 @@
 import os
 
-def read_data_file(day_num, example=False):
+def read_data_file(day_num, is_example=False):
     path = os.path.join('inputs',f'day{day_num}')
     
-    if example:
+    if is_example:
         path += '_ex'
     path += '.in'
 
